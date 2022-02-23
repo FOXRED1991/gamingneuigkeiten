@@ -1,3 +1,53 @@
+.titulo{
+
+    font-family: Arial;
+    color: rgb(253, 253, 253);
+    margin-left: 30%;
+
+}
+
+.texto{
+
+    color: rgb(180, 180, 180);
+
+}
+
+.container-fluid{
+
+    background-color: rgb(175, 2, 2);
+
+}
+.nav-link{
+
+    color: white;
+
+}
+
+.navbar {
+
+    background-color: black;
+
+}
+
+.btn {
+
+    background-color: rgb(251, 255, 0);
+
+}
+
+.navbar-brand {
+
+    color: white;
+
+}
+
+.carousel-caption{
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.651);
+
+}
+
 .thumb{
 
     width: 50px;
