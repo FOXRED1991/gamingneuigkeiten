@@ -8,6 +8,7 @@ async function querySelect(){
     console.log(result.rows);
 
     await db.end();
+
 }
 
-querySelect();
+module.exports = querySelect;

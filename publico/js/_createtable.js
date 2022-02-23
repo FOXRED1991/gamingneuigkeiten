@@ -13,4 +13,4 @@ async function createTable(){
     await db.end();
 }
 
-createTable();
+createTable(); 

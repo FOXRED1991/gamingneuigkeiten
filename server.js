@@ -33,3 +33,11 @@ app.get('/enviando',function(req, res){
 
 });
 
+app.get('/adm/ver',function(req , res){
+
+    const select = require("./publico/js/_select");
+
+    select();
+
+});
+
