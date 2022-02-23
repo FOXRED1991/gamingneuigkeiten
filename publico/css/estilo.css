@@ -6,6 +6,34 @@
 
 }
 
+.mb-3 label{
+
+margin-top: 2%;
+ color: white;
+
+}
+
+#formGroupExampleInput{
+
+    width: 20%;
+
+}
+
+#formGroupExampleInput2{
+
+    width: 40%;
+    height: 200px;
+
+}
+
+.card{
+
+    background-color: rgb(255, 109, 109);
+    margin-top: 5%;
+    margin-left: 1%;
+
+}
+
 .texto{
 
     color: rgb(180, 180, 180);
@@ -57,6 +85,7 @@
 
 .rodape{
 
+    margin-top: 2%;
     background-color: rgb(102, 12, 12);
     color: white;
 

@@ -16,3 +16,20 @@ app.listen(8080,function(){
 app.get('/gamingneuigkeiten.com',function(req, res){
     res.sendFile(__dirname + '/index.html');
 });
+
+app.get('/enviando',function(req, res){
+    
+    const insert = require("./publico/js/_insert");
+
+    const nome = req.query.nome;
+
+    const text = req.query.textarea;
+
+    console.log(nome + " , " + text);
+
+    insert(nome , text);
+
+    res.redirect('/gamingneuigkeiten.com');
+
+});
+
